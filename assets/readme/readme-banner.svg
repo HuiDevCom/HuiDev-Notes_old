@@ -11,9 +11,7 @@
       <stop offset="0%" stop-color="#e85a7a"/>
       <stop offset="100%" stop-color="#f0788a"/>
     </linearGradient>
-    <clipPath id="avatarClip">
-      <rect x="26" y="30" width="28" height="28" rx="6"/>
-    </clipPath>
+
   </defs>
 
   <!-- 主卡片容器 -->
