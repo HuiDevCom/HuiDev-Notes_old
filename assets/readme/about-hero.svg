@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="about-hero-title about-hero-desc">
+  <title id="about-hero-title">关于 — 风绘笔记</title>
+  <desc id="about-hero-desc">关于风绘、关于这个站、关于笔记</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f3f5"/>
+      <stop offset="100%" stop-color="#f0edef"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e85a7a"/>
+      <stop offset="100%" stop-color="#f0788a"/>
+    </linearGradient>
+    <mask id="avatarMask">
+      <rect x="0" y="0" width="80" height="80" rx="16" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- 主卡片容器 -->
+  <rect width="1200" height="480" rx="20" fill="url(#bgGrad)"/>
+
+  <!-- 左侧个人卡片 -->
+  <g transform="translate(64, 56)">
+    <!-- 白色卡片 -->
+    <rect width="480" height="368" rx="16" fill="#ffffff" stroke="#e8e4e7" stroke-width="1"/>
+
+    <!-- 头像 -->
+    <rect x="40" y="40" width="80" height="80" rx="16" fill="#f0edef"/>
+    <image href="https://huidev.com/avatar.png" x="40" y="40" width="80" height="80" mask="url(#avatarMask)"/>
+
+    <!-- 昵称 -->
+    <text x="144" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="26" fill="#2d2a2c" font-weight="600">风绘</text>
+    <text x="144" y="94" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#8a8588" font-weight="400">@huidev</text>
+
+    <!-- 自我介绍 -->
+    <text x="40" y="160" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#2d2a2c" font-weight="400" line-height="1.7">
+      <tspan x="40" dy="0">计算机应用专业在读，会一点平面设计，</tspan>
+      <tspan x="40" dy="26">正在学前端的路上慢慢爬。</tspan>
+    </text>
+
+    <!-- 分隔线 -->
+    <line x1="40" y1="218" x2="440" y2="218" stroke="#f0edef" stroke-width="1"/>
+
+    <!-- 联系方式 -->
+    <text x="40" y="252" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#2d2a2c" font-weight="500">联系方式</text>
+    <text x="40" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#6b6668">GitHub Issues / 邮件</text>
+
+    <!-- 最后更新 -->
+    <text x="40" y="324" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#a09ba0">最后更新于 2026 年 7 月 12 日</text>
+  </g>
+
+  <!-- 右侧：关于这个站 -->
+  <g transform="translate(600, 56)">
+    <!-- 标签 -->
+    <rect x="0" y="0" width="120" height="26" rx="13" fill="#e85a7a" opacity="0.1"/>
+    <text x="60" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="12" fill="#e85a7a" font-weight="600">About This Site</text>
+
+    <!-- 站名解释 -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20" fill="#2d2a2c" font-weight="600">huidev.com</text>
+
+    <!-- 解释 -->
+    <text x="0" y="102" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#2d2a2c" font-weight="400" line-height="1.7">
+      <tspan x="0" dy="0">「hui」来自「风绘」，「dev」就是 developer。</tspan>
+      <tspan x="0" dy="26">绘是画画、是记录、是把模糊的东西落到纸上，</tspan>
+      <tspan x="0" dy="26">dev 是动手、是构建、是把想法变成能用的东西。</tspan>
+      <tspan x="0" dy="26">这两个字放在一起，大致就是我想做的事情。</tspan>
+    </text>
+
+    <!-- 分隔线 -->
+    <line x1="0" y1="226" x2="480" y2="226" stroke="#e0dce0" stroke-width="1"/>
+
+    <!-- 关于笔记 -->
+    <text x="0" y="262" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20" fill="#2d2a2c" font-weight="600">关于笔记</text>
+    <text x="0" y="296" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#2d2a2c" font-weight="400" line-height="1.7">
+      <tspan x="0" dy="0">这些文章首先写给我自己看——为了理解、记忆，</tspan>
+      <tspan x="0" dy="26">以及未来的自己回来翻。</tspan>
+      <tspan x="0" dy="26">但既然公开出来了，如果能顺便帮到路过的你，</tspan>
+      <tspan x="0" dy="26">那就更好了。</tspan>
+    </text>
+  </g>
+
+  <!-- 底部装饰线 -->
+  <line x1="64" y1="450" x2="1136" y2="450" stroke="url(#primaryGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+</svg>

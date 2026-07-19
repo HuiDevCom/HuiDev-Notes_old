@@ -1,3 +1,5 @@
+![关于 — 风绘笔记](../../../assets/readme/about-hero.svg)
+
 # About
 
 ## 风绘

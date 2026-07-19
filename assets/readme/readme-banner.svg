@@ -44,7 +44,7 @@
   <g transform="translate(720, 56)">
     <rect width="380" height="288" rx="16" fill="#ffffff" stroke="#e8e4e7" stroke-width="1"/>
     <path d="M16 0 L364 0 Q380 0 380 16 L380 4 Q380 0 364 0 Z" fill="url(#primaryGrad)"/>
-    <image href="../../public/favicon.png" x="26" y="30" width="28" height="28" clip-path="url(#avatarClip)"/>
+    <image href="https://huidev.com/favicon.png" x="26" y="30" width="28" height="28" clip-path="url(#avatarClip)"/>
     <rect x="64" y="36" width="120" height="7" rx="3.5" fill="#f0edef"/>
     <rect x="24" y="60" width="332" height="140" rx="10" fill="#f5f3f5"/>
     <rect x="24" y="216" width="200" height="6" rx="3" fill="#f0edef"/>
