@@ -6,7 +6,7 @@ pinned: false
 description: 全程截图，10 分钟搞定游戏联机服务器。内含 500 元余额 CDK，小白照做就行。
 tags: [教程, 游戏, 开服, Minecraft]
 category: 教程
-draft: false
+draft: true
 ---
 
 > 写给不懂服务器、不懂代码、想要跟朋友联机的你
