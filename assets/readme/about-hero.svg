@@ -11,7 +11,9 @@
       <stop offset="0%" stop-color="#e85a7a"/>
       <stop offset="100%" stop-color="#f0788a"/>
     </linearGradient>
-
+    <mask id="avatarMask">
+      <rect x="40" y="40" width="80" height="80" rx="16" fill="white"/>
+    </mask>
   </defs>
 
   <!-- 主卡片容器 -->
@@ -28,7 +30,7 @@
 
     <!-- 昵称 -->
     <text x="144" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="26" fill="#2d2a2c" font-weight="600">风绘</text>
-    <text x="144" y="94" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#8a8588" font-weight="400">@huidev</text>
+    <text x="144" y="94" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#8a8588" font-weight="400">@HuiDevCom</text>
 
     <!-- 自我介绍 -->
     <text x="40" y="160" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#2d2a2c" font-weight="400" line-height="1.7">
