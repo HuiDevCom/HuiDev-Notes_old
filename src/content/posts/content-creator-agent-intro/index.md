@@ -1,5 +1,5 @@
 ---
-title: 从研究到成文，我开源了一个 Agent 搞定
+title: 一篇文章从研究到成文，一个内容创作 Agent 搞定
 published: 2026-07-21
 pinned: false
 description: 一个 AI 驱动的创作管线——从联网研究到成文、SEO 优化，串成一条线。基于 Deep Agents + LangChain，部署在 EdgeOne Makers。
