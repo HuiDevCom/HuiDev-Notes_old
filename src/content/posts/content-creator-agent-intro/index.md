@@ -11,7 +11,7 @@ draft: false
 
 > 基于 EdgeOne Makers 模板二次开发，增加了创作管线相关的 Agent 和存储逻辑。不是成品 SaaS，是一个可以自己部署的模板。
 
-[**GitHub 地址**](https://github.com/HuiDevCom/content-creator-agent)
+[**GitHub 地址**](https://github.com/HuiDevCom/content-creator-agent) · [**演示地址：内容创作Agent**](https://content-creator.agent.huidev.com)
 
 ## 它是什么？
 
